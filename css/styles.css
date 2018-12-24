@@ -1,0 +1,109 @@
+/* Estilos generales */
+
+
+@font-face {
+    font-family: 'magallaneslight';
+    src: url('latinotype-magallaneslight-webfont.woff2') format('woff2'),
+         url('latinotype-magallaneslight-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+p {
+  font-family: 'magallaneslight', normal;
+  font-size: 150%;
+}
+
+
+
+
+
+*{
+	margin: 0px;
+	padding: 0px;
+	text-decoration: none;
+	font-family: 'magallaneslight', normal;
+}
+
+body{
+	background-size: 100%;
+}
+
+.clearfix{
+	clear: both;
+	float: none;
+}
+
+.container{
+	width: 85%;
+	margin: 0px auto; /* Centrar un bloque */
+}
+
+/* Cabecera */
+#main-header{	
+	height: 130px;
+	line-height: 85px;
+	border-bottom: 1px solid white;
+
+}
+
+#logo{
+	margin-top: 15px;
+	width: 30%;
+	float: left;
+}
+
+	#logo h1{
+		margin-top: 7px;
+	}
+
+#menu-1{
+
+	width: 805px;
+	float: left;
+	margin-top: 7px;
+	margin-left: -122px;
+}
+
+#menu-1 ul li{
+	list-style: none;
+	float: left;
+	margin-top: 15px;
+	margin-left: 20px;
+	margin-right: 13px;
+}
+
+#menu-1 ul li a{
+	color: black;
+}
+
+#menu-1 ul li a:hover{
+	color:#FB314E;
+}
+
+--
+
+#menu-2{
+	margin-top: 7px;
+	width: 620px;
+	float: right;
+}
+
+#menu-2 ul li{
+	list-style: none;
+	float: right;
+	margin-top: 33px;
+	margin-left: 20px;
+	margin-right: 13px;
+}
+
+#menu-2 ul li a{
+	color: black;
+}
+
+#menu-2 ul li a:hover{
+	color:#FB314E;
+}
