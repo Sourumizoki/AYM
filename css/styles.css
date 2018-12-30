@@ -45,7 +45,7 @@ body{
 /* Cabecera */
 #main-header{	
 	height: 130px;
-	line-height: 85px;
+	line-height: 70px;
 	border-bottom: 1px solid white;
 
 }
@@ -75,14 +75,15 @@ body{
 	margin-left: 20px;
 	margin-right: 13px;
 }
-
+	
 #menu-1 ul li a{
 	color: white;
 	font-size: 29px;
 }
 
 #menu-1 ul li a:hover{
-	color:#FB314E;
+	/*color:#6AB0A9;*/
+	border-bottom: 1px solid #000000;
 }
 
 --
@@ -96,7 +97,6 @@ body{
 #menu-2 ul li{
 	list-style: none;
 	float: right;
-	margin-top: 33px;
 	margin-left: 20px;
 	margin-right: 13px;
 }
@@ -113,7 +113,7 @@ body{
 @media all and (max-width: 1366px)
 {
 #main-header{
-	height: 80px;
+	height: 70px;
 }
 
 #menu-1{
@@ -126,13 +126,16 @@ body{
 
 #menu-1 ul li a{
 	font-size: 24px;
+	color: black;
 }
 
 #menu-2 ul li{
 	margin-top: 10px;
 }
 
+}
 
-
+@media all and (max-width: 414px)
+{
 
 }
